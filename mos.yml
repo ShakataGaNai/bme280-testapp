@@ -1,4 +1,4 @@
-author: ShakataGaNai
+author: ShakataGaNai 
 description: bme280 test app
 version: 1.0
 
@@ -18,7 +18,7 @@ libs:
   - origin: https://github.com/mongoose-os-libs/wifi
   - origin: https://github.com/mongoose-os-libs/i2c
   - origin: https://github.com/mongoose-os-libs/spi
-  - origin: https://github.com/mongoose-os-libs/arduino-adafruit-bme280
+  - origin: https://github.com/ShakataGaNai/bme280-driver
 
 config_schema:
   - ["i2c.enable", true]
@@ -32,3 +32,4 @@ manifest_version: 2017-05-18
 # https://mongoose-os.com/docs/quickstart/advanced-javascript.html
 # https://steve.fi/Hardware/d1-pins/
 # https://github.com/mongoose-os-apps/blynk-bme280-js/blob/master/mos.yml
+# origin: https://github.com/anyhotcountry/bme280-driver
